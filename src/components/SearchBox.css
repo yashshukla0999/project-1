@@ -1,0 +1,78 @@
+
+.searchDiv{
+    width: 80vw;
+    max-width: 80vw;
+    padding: 3vw 10vw;
+}
+
+.searchDiv .searchHeader{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.searchDropdown{
+    /* position: absolute; */
+    /* right: 15vw; */
+    margin-left: 30vw;
+    width: 300px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6d69dff4 !important;
+    letter-spacing: 0.5px;
+    border-radius: 20px !important;
+    /* border: 0.5px solid rgba(100, 87, 132, 0.2); */
+}
+
+.searchDiv .searchHolder{
+    width: 92%;
+    padding: 1vw;
+    background-color: white;
+    display: flex;
+    border-radius: 15px;
+}
+
+.Box{
+    padding: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 25px;
+    min-width: 210px;
+    height: 60px;
+    border-right: 0.5px solid rgba(0,0,0,0.2);
+}
+.searchHolder .Box span{
+    opacity: 0.3;
+    font-weight: 600;
+    font-size: 13px;
+    /* top: 22px; */
+    /* margin: 10px; */
+}
+
+.searchHolder .Box h4{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+
+.searchHolder button{
+    margin: auto;
+    height: fit-content;
+    margin-left: 2vw;
+    border: none;
+    padding: 15px 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(100, 87, 132, 0.2);
+}
+
+.searchHolder .purple{
+    background-color: #6d69dff4;
+    border: none;
+}
+
+.searchHolder .purple a{
+    color: aliceblue; 
+}
